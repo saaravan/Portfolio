@@ -15,10 +15,8 @@ body
 #header
 {
   height:242px;
-  margin:0px auto 15px auto;
-  font-family:Verdana, Arial, Helvetica, sans-serif;
-  color: #800000;
-  background:url("images/header.jpg");
+  background:url(images/header.jpg) no-repeat left top;
+  clear: both;
 }
 
 /*Header menu*/
