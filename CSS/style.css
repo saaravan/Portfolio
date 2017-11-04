@@ -15,7 +15,7 @@ body
 #header
 {
   height:242px;
-  background:url("https://github.com/saaravan/Portfolio/blob/master/images/header.jpg") no-repeat left top;
+  background:url("Portfolio/images/header.jpg") no-repeat left top;
   clear: both;
 }
 
