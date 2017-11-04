@@ -12,59 +12,11 @@ body
 }
 
 /* Header */
-#header
+.header
 {
   height:242px;
   background:url("Portfolio/images/header.jpg") no-repeat left top;
   clear: both;
-}
-
-/*Header menu*/
-#topmenu
-{
-  display:block;
-  list-style:none;
-  padding:0px 0px 270px;
-  float:right;
-  width:415px;
-}
-
-#topbar
-{
-  height:78px;
-}
-
-#topmenu li
-{
-  display:inline;
-}
-
-#topmenu a
-{
-  display:block;
-  float:left;
-  height:28px;
-  margin:0px 0px 0px 0px;
-  text-decoration:none;
-  padding:9px 15px 0px 15px;
-  text-align:center;
-}
-
-#topmenu a, #topmenu a:visited, #topmenu a:active
-{
-  color:#008080;
-}
-
-#topmenu a:hover
-{
-  color:	#4682B4;
-  background-color:#FFC0CB;
-}
-
-#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active
-{
-  color:#98FB98;
-  background-color:#FFA500;
 }
 
 /*Content*/
