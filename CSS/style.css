@@ -18,7 +18,7 @@ body
   margin:0px auto 15px auto;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   color: #800000;
-  background:#800000;
+  background:url("images/header.jpg");
 }
 
 /*Header menu*/
