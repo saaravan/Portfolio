@@ -30,6 +30,11 @@ body
   width:415px;
 }
 
+#topbar
+{
+  height:78px;
+}
+
 #topmenu li
 {
   display:inline;
