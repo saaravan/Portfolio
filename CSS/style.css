@@ -62,3 +62,54 @@ body
   color:#98FB98;
   background-color:#FFA500;
 }
+
+/*Content*/
+#content
+{
+  background-color: #808000;
+}
+
+#mainpage
+{
+  width:700px;
+  float:left;
+  padding:5px 5px 5px 0px;
+  height:auto;
+}
+
+#mainpage p
+{
+  line-height:22px;
+  margin:10px 0px 22px 0px;
+  text-align: justify;
+}
+
+#mainpage blockquote
+{
+  background:#FFDEAD;
+  display:block;
+  margin: 5px;
+  font:Georgia, "Times New Roman", Times, serif;
+  font-style:italic;
+}
+
+h1, h2, h3, h4, h5
+{
+  color:#C71585;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainpage h1
+{
+  font-size:24px;
+  color: #20B2AA;
+}
+
+#mainpage h2
+{
+  font-size:18px;
+  padding-top:20px;
+  padding-bottom:5px;
+  border-bottom:1px solid #00FF00;
+}
