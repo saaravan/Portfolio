@@ -1,7 +1,8 @@
 body
 {
-  background:#FFF5EE;
+  background: #FFF5EE url("https://github.com/saaravan/Portfolio/blob/master/images/header.jpg?raw=true") repeat-x;
 }
+
 #wrap
 {
   width:700px;
