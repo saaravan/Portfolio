@@ -63,12 +63,12 @@ body
 
 #topmenu a, #topmenu a:visited, #topmenu a:active 
 {
-	color:#FFFFFF;
+	color:#ffffff;
 }
 
 #topmenu a:hover{
-	color:#ffffff;
-	background-color: #B52E10;
+	color:#2b2b2b;
+	background-color: #2b2b2b;
 }
 
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active
