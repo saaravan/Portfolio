@@ -39,9 +39,10 @@ body
 	padding:0 0px 0px 278px;
 	float: right;
 	width: 415px;
-	background: #000000 url("Portfolio/images/header2.jpg");
+	background: #000000 url("https://github.com/saaravan/Portfolio/blob/master/images/header2.jpg?raw=true");
 	/*background-color:black;*/
 	position: fixed;
+	border: 4px dashed #ffffff;
 }
 
 #topmenu li 
