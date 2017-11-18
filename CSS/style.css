@@ -39,7 +39,8 @@ body
 	padding:0 0px 0px 278px;
 	float: right;
 	width: 415px;
-	background-color:black;
+	background: #000000 url("Portfolio/images/header2.jpg");
+	/*background-color:black;*/
 	position: fixed;
 }
 
