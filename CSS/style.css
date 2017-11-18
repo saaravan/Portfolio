@@ -12,13 +12,66 @@ body
   color: #8B008B;
 }
 
+
+
+
 /* Header */
-.header
+#header
 {
   height:242px;
   background:url("Portfolio/images/header.jpg") no-repeat left top;
   clear: both;
 }
+
+
+
+
+/*Header Menu*/
+#topmenu 
+{
+	display:block;
+	list-style:none;
+	padding:0 0px 0px 278px;
+	float: right;
+	width: 415px;
+	background-color:black;
+	position: fixed;
+}
+
+#topmenu li 
+{
+	display:inline;
+}
+
+#topmenu a 
+{
+	display:block;
+	float:left;
+	height:28px;
+	margin:0px 0px 0px0px;
+	text-decoration:none;
+	padding:9px 15px 0px 15px;
+	text-align:center;
+}
+
+#topmenu a, #topmenu a:visited, #topmenu a:active 
+{
+	color:#FFFFFF;
+}
+
+#topmenu a:hover{
+	color:#ffffff;
+	background-color: #B52E10;
+}
+
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active
+{
+	color:#FFFFFF;
+	background-color: #B42D0F;
+}
+
+
+
 
 /*Content*/
 #content
@@ -73,3 +126,23 @@ h1, h2, h3, h4, h5
   border:2px solid #C71585;
   text-align:center;
 }
+
+
+
+
+/*footer*/
+#footer {
+	margin:0 auto;
+	width:685px;
+	height:20px;
+	padding:10px;
+	color:#FFFFFF;
+	text-align: center;
+	background:#333333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	clear: both;
+}
+
+#topbar{
+	height:78px;
