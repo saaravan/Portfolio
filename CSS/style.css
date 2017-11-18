@@ -98,7 +98,7 @@ body
 {
   line-height:22px;
   margin:10px 0px 22px 0px;
-  text-align: center;
+  text-align: justify;
   color:red;
 }
 
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5
 
 #mainpage h1
 {
-  font-size:24px;
+  font-size:48px;
   color: #20B2AA;
 }
 
