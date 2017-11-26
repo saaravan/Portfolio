@@ -177,3 +177,9 @@ th
 {
 	text-align:left;
 }
+
+#map
+{
+	height: 500px;
+	width:100%;
+}
