@@ -5,13 +5,10 @@ body
 
 #wrap
 {
-  width:800px;
+  width:700px;
   margin:0px auto 15px auto;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
-  background: #e2dce2;
-  border:0px;
-  padding:10px;
 }
 
 
@@ -116,7 +113,7 @@ h1
 
 h2, h3, h4, h5
 {
-	color:#C71585;
+	color:#262626;
 	font-weight:bold;
 	font-family: Arial, Helvetica, sans-serif;
 	align:right;
@@ -126,7 +123,6 @@ h2, h3, h4, h5
 {
 	font-size:48px;
 	color: #3a3a3a;
-	align:justify;
 }
 
 #mainpage h2
@@ -135,6 +131,7 @@ h2, h3, h4, h5
 	padding-top:20px;
 	padding:10px;
 	border:1px solid #e2d1c5;
+	align:right;
 }
 
 
