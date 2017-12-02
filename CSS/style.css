@@ -186,11 +186,12 @@ th
 
 canvas
 {
-border: #4b6975 1px solid;
+	border: #4b6975 1px solid;
 }
 
 p
 {
-background: #4b6975;	
-padding: 5px;
+	background: #4b6975;	
+	border: #ffffff 1px;
+	padding: 5px;
 }
