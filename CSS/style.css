@@ -183,3 +183,8 @@ th
 	height: 500px;
 	width:100%;
 }
+
+canvas
+{
+border: #4b6975 1px solid;
+}
