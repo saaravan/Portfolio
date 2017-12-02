@@ -5,11 +5,13 @@ body
 
 #wrap
 {
-  width:700px;
+  width:800px;
   margin:0px auto 15px auto;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
   background: #e2dce2;
+  border:0px;
+  padding:10px;
 }
 
 
