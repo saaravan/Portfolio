@@ -22,6 +22,21 @@ return false;
 return true;
 }
 </script>
+    
+    <script type="application/javascript" language="javascript">
+      function draw(x,y)
+      {
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        ctx.save();
+        ctx.clearRect(0,0,550,400)
+        ctx.fillStyle = "rgba(0,200,0,1)";
+        ctx.fillRect (x,20,50,50)
+        ctx.restore();
+        x += 5;
+        var loopTimer = setTimeout('draw('+x+','+y+')',200);
+      }
+    </script>
   </head>
   
   <body>
@@ -106,7 +121,7 @@ return true;
       
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV4tYPUR2IV8eoxet1BOK2J002Na1aQp0&callback=initMap">
       </script>
-      
+      <button onclick="draw(0,0)">Draw</button>
       <canvas id="canvas" width="550" height="400"></canvas>
       
         </div>
