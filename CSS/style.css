@@ -6,7 +6,7 @@ body
 #wrap
 {
   width:700px;
-  margin:0px auto 15px auto;
+  margin:0px auto 15px 700px;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
 }
@@ -84,7 +84,7 @@ h1
 /*Content*/
 #content
 {
-	float:right;
+
 }
 
 #mainpage
@@ -240,9 +240,7 @@ ul, ol
 /*Sidebar*/
 #sidebar
 {
-  float:left;
-  position:relative;
-  left: 50px;
+  position:fixed;
   height: 90%;
   width: 300px;
   z-index: 1;
