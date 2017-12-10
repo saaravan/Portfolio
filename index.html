@@ -134,37 +134,12 @@ return true;
       <div id="map"></div>
 
       
-      <script>
-        if (navigator.geolocation)
+<script>
+        function initMap()
         {
-          var timeoutval = 10 * 1000 * 1000;
-          navigator.geolocatin.getCurrentPosition(displayPosition, displayError,
-                                                  {enableHighAccuracy:true, timeout: timeoutval, maximumAge: 0});
-        }
-        
-        else
-        {
-          alert("Update your browser");
-        }
-        
-        function displayPosition(position)
-        {
-         var pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+          var location = {lat: 37.774, lng: -122.419};
           var map = new google.maps.Map(document.getElementById("map"), {zoom: 4, center: location});
-          var marker = new google.maps.Marker({position: pos, map: map, title: "User Location"});
-          google.maps.event.addListener(marker, 'click', function());
-       
-        }
-        
-        function displayError(error)
-        {
-         var errors = {
-           1: "Permission denied",
-           2: "Position unavailable",
-           3: "Request timeout"
-         };
-          alert("Error: " + errors[error.code]);
-        }
+          var marker = new google.maps.Marker({position: location, map: map});
         }
       </script>
       
