@@ -140,11 +140,66 @@ return true;
         }
       </script>
       
-      <img src="https://github.com/saaravan/Portfolio/blob/master/images/header2.jpg?raw=true" 
-         alt="Rainbow Mosaic" width="700" height="242" draggable="true" ondragstart="drag(event)">
+
       
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV4tYPUR2IV8eoxet1BOK2J002Na1aQp0&callback=initMap">
       </script>
+      
+      <script>
+        if (navigator.geolocation)
+        {
+          var timeoutval = 10 * 1000 * 1000;
+          navigator.geolocatin.getCurrentPosition(displayPosition, displayError,
+                                                  {enableHighAccuracy:true, timeout: timeoutval, maximumAge: 0});
+        }
+        
+        else
+        {
+          alert("Update your browser");
+        }
+        
+        function displayPosition(position)
+        {
+         var pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+          var options {zoom: 10, center: pos, mapTypeId: google.maps.MapTypeId.ROADMAP};
+          var map = new google.maps.Map(document.getElementById("map"), options);
+          var marker = new google.maps.Marker({position:pos, map: map, title: "User Location"});
+          var contentString = "<b>Timestamp:</b> " + parseTimestamp(position.timestamp) + "<br/><b>User Location:</b>"
+          var infowindow = new google.maps.Infowindow({
+            content: contentString});
+          google.maps.event.addListener(marker, 'click', function()
+                                        
+                                        {infowindow.open(map,marker)});
+       
+        }
+        
+        function displayError(error)
+        {
+         var errors = {
+           1: "Permission denied",
+           2: "Position unavailable",
+           3: "Request timeout"
+         };
+          alert("Error: " + errors[error.code]);
+        }
+        
+        function parseTimeStamp(timestamp)
+        {
+         var d = new Date(timestamp);
+          var day = d.getDate();
+          var month = d.getMonth() + 1;
+          var year = d.getFullYear();
+          var hour = d.getHours();
+          var mins = d.getMinutes();
+          var secs = d.getSeconds();
+          var msec = d.getMilliseconds();
+          return day + "," + month + "," + year + " " + hour + ":" + mins + ":" + secs + "," + msec;
+        }
+      </script>
+      
+            <img src="https://github.com/saaravan/Portfolio/blob/master/images/header2.jpg?raw=true" 
+         alt="Rainbow Mosaic" width="700" height="242" draggable="true" ondragstart="drag(event)">
+        
       <button onclick="draw(0,0)">Draw</button>
       <canvas id="canvas" width="550" height="400"></canvas>
       
