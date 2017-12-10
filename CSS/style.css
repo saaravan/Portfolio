@@ -85,7 +85,6 @@ h1
 #content
 {
 	z-index:1000;
-	overflow:hidden;
 }
 
 #mainpage
@@ -241,7 +240,7 @@ ul, ol
 /*Sidebar*/
 #sidebar
 {
-  /*position:fixed;*/
+  position:fixed;
   height: 90%;
   width: 300px;
   top: 0;
@@ -254,8 +253,6 @@ ul, ol
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
   float:left;
-  overflow:hidden;
-  z-index: 0;
 }
 
 #sidebar ul
