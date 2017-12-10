@@ -245,8 +245,8 @@ ul, ol
   height: 90%;
   width: 300px;
   z-index: 1;
-  top: 0;
-  left: 0;
+  /*top: 0;
+  left: 0;*/
   background-color: #232323;
   overflow-x: hidden;
   padding-top: 20px;
@@ -254,6 +254,7 @@ ul, ol
   margin: 0 0 0 230px;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
+  float:left;
 }
 
 #sidebar ul
