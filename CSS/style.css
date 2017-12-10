@@ -244,6 +244,7 @@ ul, ol
   height: 60%;
   width: 300px;
   /*top: 0;*/
+  bottom: 0;
   left: 0;
   background-color: #232323;
   overflow-x: hidden;
