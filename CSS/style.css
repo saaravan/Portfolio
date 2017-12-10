@@ -247,13 +247,13 @@ ul, ol
   left: 0%;
   background-color: #232323;
   overflow-x: hidden;
-  /*padding-top: 20px;*/
+  padding-top: 20px;
   list-style:none;
   margin: 0 0 0 230px;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
-  /*position:fixed;
-  float:left;*/
+  position:absolute;
+  float:left;
 }
 
 #sidebar ul
@@ -294,10 +294,3 @@ display:block;
 	background-color: #2b2b2b;
 }
 
-.fixedContainer {
-    position: fixed;
-    padding: 0px;
-    left: 0%;
-    top: 0%;
-    transform: translateX(-50%);
-}
