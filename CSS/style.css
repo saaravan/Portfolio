@@ -143,20 +143,13 @@ h2, h3, h4, h5
 
 #mainpage a:hover{
 	color:#353535;
-	background-color: #2b2b2b;
+	background-color: #d1d1d1;
 }
 
 #mainpage .active a, #mainpage .active a:visited, #mainpage .active a:active
 {
 	color:#353535;
-	background-color: #2b2b2b;
-}
-
-#mainpage img
-{
-	align:center;
-	border: 1px;
-	padding: 5px;
+	background-color: #d1d1d1;
 }
 
 
@@ -235,6 +228,7 @@ ul, ol
     height: 328px;
     padding: 10px;
     border: 1px solid #aaaaaa;
+}
 
 
 /*Sidebar*/
@@ -247,6 +241,7 @@ ul, ol
   top: 0;
   left: 0;
   background-color: #232323;
+  background-image: url("https://github.com/saaravan/Portfolio/blob/master/images/sidebar.jpg?raw=true");
   overflow-x: hidden;
   padding-top: 20px;
   list-style:none;
@@ -255,7 +250,7 @@ ul, ol
 
 #sidebar li 
 {
-	display:inline;
+	display:block;
 }
 
 #sidebar a 
