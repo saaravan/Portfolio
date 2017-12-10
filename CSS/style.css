@@ -240,6 +240,7 @@ ul, ol
 /*Sidebar*/
 #sidebar
 {
+  float:left;
   height: 20%;
   width: 300px;
   position: fixed;
