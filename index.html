@@ -131,18 +131,8 @@ return true;
       <iframe width="560" height="315" src="https://www.youtube.com/embed/vPKkmu-pBMQ?rel=0" frameborder="0" allowfullscreen></iframe>
       
       <div id="map"></div>
-      <script>
-        function initMap()
-        {
-          var location = {lat: 37.774, lng: -122.419};
-          var map = new google.maps.Map(document.getElementById("map"), {zoom: 4, center: location});
-          var marker = new google.maps.Marker({position: location, map: map});
-        }
-      </script>
-      
 
-      
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV4tYPUR2IV8eoxet1BOK2J002Na1aQp0&callback=initMap">
+    
       </script>
       
       <script>
@@ -164,12 +154,7 @@ return true;
           var options {zoom: 10, center: pos, mapTypeId: google.maps.MapTypeId.ROADMAP};
           var map = new google.maps.Map(document.getElementById("map"), options);
           var marker = new google.maps.Marker({position:pos, map: map, title: "User Location"});
-          var contentString = "<b>Timestamp:</b> " + parseTimestamp(position.timestamp) + "<br/><b>User Location:</b>"
-          var infowindow = new google.maps.Infowindow({
-            content: contentString});
           google.maps.event.addListener(marker, 'click', function()
-                                        
-                                        {infowindow.open(map,marker)});
        
         }
         
@@ -182,20 +167,10 @@ return true;
          };
           alert("Error: " + errors[error.code]);
         }
-        
-        function parseTimeStamp(timestamp)
-        {
-         var d = new Date(timestamp);
-          var day = d.getDate();
-          var month = d.getMonth() + 1;
-          var year = d.getFullYear();
-          var hour = d.getHours();
-          var mins = d.getMinutes();
-          var secs = d.getSeconds();
-          var msec = d.getMilliseconds();
-          return day + "," + month + "," + year + " " + hour + ":" + mins + ":" + secs + "," + msec;
         }
       </script>
+      
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV4tYPUR2IV8eoxet1BOK2J002Na1aQp0&callback=initMap">
       
             <img src="https://github.com/saaravan/Portfolio/blob/master/images/header2.jpg?raw=true" 
          alt="Rainbow Mosaic" width="700" height="242" draggable="true" ondragstart="drag(event)">
