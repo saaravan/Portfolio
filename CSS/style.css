@@ -241,6 +241,7 @@ ul, ol
 #sidebar
 {
   float:left;
+  position:absolute;
   height: 90%;
   width: 300px;
   z-index: 1;
