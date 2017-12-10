@@ -212,8 +212,8 @@ margin:auto;
 
 #sidebar
 {
-  height: 100%;
-  width: 200px;
+  height: 80%;
+  width: 300px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -222,6 +222,7 @@ margin:auto;
   overflow-x: hidden;
   padding-top: 20px;
   list-style:none;
+  margin: 0 0 0 230px;
 }
 
 #sidebar li 
