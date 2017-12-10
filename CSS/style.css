@@ -255,8 +255,9 @@ ul, ol
 
 #sidebar ul
 {
-	margin-top: 800px;	
+display:block;	
 }
+
 #sidebar li 
 {
 	display:block;
