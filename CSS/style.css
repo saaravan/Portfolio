@@ -169,7 +169,7 @@ table th, td
 	border: 1px solid #2b2b2b;
 	color: #000000;
 	padding:15px;
-	background-color:#7bcfd8;
+	background-color:#bbe8ed;
 }
 
 th
@@ -193,4 +193,18 @@ p
 	background: #e0dad5;	
 	border: #c9c0b9 3px;
 	padding: 5px 20px;
+	margin: 5px;
+}
+
+ul, ol
+{
+	background: #e0dad5;	
+	border: #c9c0b9 3px;
+	padding: 5px 20px;
+	margin: 5px;
+}
+
+iframe
+{
+margin:auto;	
 }
