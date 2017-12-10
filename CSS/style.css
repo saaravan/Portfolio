@@ -1,7 +1,6 @@
 body
 {
   background: #f2f2f2 url("https://github.com/saaravan/Portfolio/blob/master/images/header2.jpg?raw=true") repeat-x;
-	background-position:700px 0px;
 }
 
 #wrap
@@ -248,7 +247,6 @@ ul, ol
   top: 0;
   left: 0;
   background-color: #232323;
-  background-image: url("https://github.com/saaravan/Portfolio/blob/master/images/sidebar.jpg?raw=true") repeat-y;
   overflow-x: hidden;
   padding-top: 20px;
   list-style:none;
