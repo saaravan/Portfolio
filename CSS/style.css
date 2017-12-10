@@ -241,11 +241,10 @@ ul, ol
 /*Sidebar*/
 #sidebar
 {
-
   height: 90%;
   width: 300px;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
   background-color: #232323;
   overflow-x: hidden;
   padding-top: 20px;
@@ -253,9 +252,9 @@ ul, ol
   margin: 0 0 0 230px;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
-  /*position:fixed;*/
+  position:fixed;
   float:left;
-
+  transform: translateX(-50%);
 }
 
 #sidebar ul
@@ -296,7 +295,7 @@ display:block;
 	background-color: #2b2b2b;
 }
 
-#nav
+.nav
 {
 	  
 }
