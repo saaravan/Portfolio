@@ -135,6 +135,23 @@ h2, h3, h4, h5
 	background: #bbe8ed url("https://github.com/saaravan/Portfolio/blob/master/images/header2.jpg?raw=true");
 }
 
+#mainpage a, #mainpage a:visited, #mainpage a:active 
+{
+	color:#353535;
+	border: 1px #ffffff;
+}
+
+#mainpage a:hover{
+	color:#353535;
+	background-color: #2b2b2b;
+}
+
+#mainpage .active a, #mainpage .active a:visited, #mainpage .active a:active
+{
+	color:#353535;
+	background-color: #2b2b2b;
+}
+
 
 
 
@@ -210,6 +227,8 @@ iframe
 margin:auto;	
 }
 
+
+/*Sidebar*/
 #sidebar
 {
   height: 80%;
