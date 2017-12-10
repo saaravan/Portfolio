@@ -156,6 +156,8 @@ h2, h3, h4, h5
 #mainpage img
 {
 	align:center;
+	border: 1px;
+	padding: 5px;
 }
 
 
