@@ -253,6 +253,10 @@ ul, ol
   margin: 0 0 0 230px;
 }
 
+#sidebar ul
+{
+	margin-top: 80%;	
+}
 #sidebar li 
 {
 	display:block;
