@@ -134,6 +134,11 @@ h2, h3, h4, h5
 	background: #bbe8ed url("https://github.com/saaravan/Portfolio/blob/master/images/header2.jpg?raw=true");
 }
 
+#mainpage h3
+{
+border-bottom: 1px #383838;	
+}
+
 #mainpage a, #mainpage a:visited, #mainpage a:active 
 {
 	color:#353535;
