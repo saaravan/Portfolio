@@ -41,7 +41,7 @@ h1
 	background: #000000 url("https://github.com/saaravan/Portfolio/blob/master/images/header2.jpg?raw=true");
 	/*background-color:black;*/
 	position: fixed;
-	border: 4px dashed #ffffff;
+	border: 3px dashed #ffffff;
 }
 
 #topmenu li 
@@ -54,7 +54,7 @@ h1
 	display:block;
 	float:left;
 	height:28px;
-	margin:0px 0px 0px0px;
+	margin:0px 0px 0px 0px;
 	text-decoration:none;
 	padding:9px 15px 0px 15px;
 	text-align:center;
@@ -63,6 +63,7 @@ h1
 #topmenu a, #topmenu a:visited, #topmenu a:active 
 {
 	color:#ffffff;
+	border: 1px #ffffff;
 }
 
 #topmenu a:hover{
