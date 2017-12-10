@@ -147,13 +147,13 @@ border-bottom: 1px #383838;
 
 #mainpage a:hover{
 	color:#353535;
-	background-color: #bcbcbc;
+	background-color: #636363;
 }
 
 #mainpage .active a, #mainpage .active a:visited, #mainpage .active a:active
 {
 	color:#353535;
-	background-color: #bcbcbc;
+	background-color: #636363;
 }
 
 
