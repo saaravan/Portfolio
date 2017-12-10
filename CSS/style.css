@@ -254,7 +254,7 @@ ul, ol
   font-size:12px;
   position:fixed;
   float:left;
-  transform: translateX(-50%);
+  transform: translateX(-30%);
 }
 
 #sidebar ul
