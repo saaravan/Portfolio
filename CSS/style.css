@@ -9,7 +9,6 @@ body
   margin:0px auto 15px 600px;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
-  z-index:1000;
 }
 
 
@@ -85,7 +84,9 @@ h1
 /*Content*/
 #content
 {
-
+	float:right;
+	z-index:1000;
+	overflow:hidden;
 }
 
 #mainpage
@@ -254,6 +255,7 @@ ul, ol
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
   float:left;
+  overflow:hidden;
 }
 
 #sidebar ul
