@@ -9,12 +9,12 @@
     <script>
 function validateForm()
 {
-if (document.forms["myForm"]["fname"].value==null || document.forms["myForm"]["name"].value=="")
+if (document.forms["myForm"]["fname"].value==null || document.forms["myForm"]["fname"].value=="")
 {
 alert("First name must be filled out");
 return false;
 }
-if (document.forms["myForm"]["lname"].value==null || document.forms["myForm"]["phone"].value=="")
+if (document.forms["myForm"]["lname"].value==null || document.forms["myForm"]["lname"].value=="")
 {
 alert("Last name must be filled out");
 return false;
@@ -122,7 +122,7 @@ return true;
       <form name="myForm" onsubmit="return validateForm()">
         First Name: <input type="text" name="fname"><br>
         Last Name: <input type="text" name="lname"><br>
-        Gender: <br><input type="radio" name:"firstoption" checked>*Nods solemnly*<br>
+        Gender: <br><input type="radio" name:"firstoption">*Nods solemnly*<br>
         <input type="radio" name:"secondoption">No<br>
         <input type="radio" name:"thirdoption">Hell no<br>
         <input type="submit" value="Submit">
