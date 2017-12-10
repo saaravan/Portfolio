@@ -56,6 +56,22 @@ return true;
         ev.target.appendChild(document.getElementById(data));
       }
     </script>
+    
+          <script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
   </head>
   
   <body>
@@ -191,6 +207,13 @@ return true;
       <img src="https://github.com/saaravan/Portfolio/blob/master/images/CharacterPortrait_GiselaEikenboom_Neutr_fixed.png?raw=true">
       <img src="https://github.com/saaravan/Portfolio/blob/master/images/CharacterPortrait_IsaHolst_Neutr_fixed.png?raw=true">
       
+      
+
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<img id="drag1" src="https://github.com/saaravan/Portfolio/blob/master/images/miekka.png?raw=true" draggable="true"
+ondragstart="drag(event)" width="336" height="69">
         </div>
       </div>
   </body>
