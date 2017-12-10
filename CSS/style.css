@@ -6,9 +6,10 @@ body
 #wrap
 {
   width:700px;
-  margin:0px auto 15px 700px;
+  margin:0px auto 15px 600px;
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-size:12px;
+  z-index:1000;
 }
 
 
