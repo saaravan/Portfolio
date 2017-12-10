@@ -242,6 +242,7 @@ ul, ol
 {
   float:left;
   position:relative;
+  left: 50px;
   height: 90%;
   width: 300px;
   z-index: 1;
