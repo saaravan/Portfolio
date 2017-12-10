@@ -255,6 +255,7 @@ ul, ol
   font-size:12px;
   float:left;
   overflow:hidden;
+  z-index: 0;
 }
 
 #sidebar ul
